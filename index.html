@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/bootstrap-5.2.3-dist/css/bootstrap.css">
+    <script src="/assets/bootstrap-5.2.3-dist/js/bootstrap.js"></script>
+    <!-- Ward -->
+    <link rel="stylesheet" href="style.css">
+    <title>Alcance del Proyecto</title>
+    <style>
+        .cuadrito{
+            height: 25px;
+            width: 25px;
+        }
+    </style>
+    <script>
+        function cambiarColorHeaderFooter(color) {
+            document.getElementById('header').style.backgroundColor = color;
+            document.getElementById('footer').style.backgroundColor = color;
+            document.getElementById('color').innerHTML = color;
+        }
+    </script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="preinscripcion.html">Preinscripciones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="banner" class="banner overflow-hidden" style="background-image: url('/assets/images/alcance-proyecto.jpg');">
+        </div>
+    </header>
+    <main class="container">
+        <div id="titulo">
+            <h1>Alcance del Proyecto</h1>
+            <p>Debido a la cantidad de problemas encontrados en la empresa, y el poco tiempo que contamos respecto a la implementación de este proyecto en particular,como alcance del proyecto, apostamos a lo siguiente:</p>
+        </div>
+        <div class="parrafo px-3">
+            <ol>
+                <li><p>Proponer la utilización de un sistema informático para sustituir las registraciones manuales, tanto de proveedores, mercaderías, pedidos de clientes, pedidos a proveedores, compras a proveedores, tanto altas, bajas como modificaciones; de esta manera, como documentos de respaldo, solo utilizar informes impresos pertinentes para la gerencia de la organización.</p>
+                </li>
+                <li>
+                    <p> Mejorar la gestión por medio de un sistema informático la Gestión de compras, la gestión de proveedores, la gestión de ventas, la gestión al cliente y la gestión almacén.</p>
+                </li>
+                <li>
+                    <p>Capacitar a los socios gerentes y todo el personal sobre los sistemas de información computarizados a implementarse y los procesos mejorados para que todos comprendan los cambios implementados y sepan cómo trabajar de manera eficiente dentro del nuevo sistema.</p>
+                </li>
+                <li>
+                    <p> El software propuesto debería garantizar la seguridad de los datos del local y de los clientes, implementando medidas de seguridad como encriptación, acceso restringido y copias de seguridad regulares.</p>
+                </li>
+                <li>
+                    <p> El software  a implementar podría permitir personalizar elementos como logotipos, colores o diseños, adaptándose a la imagen de la empresa. Además, debería ser escalable para futuras expansiones del negocio, como la apertura de sucursales adicionales.</p>
+                </li>
+            </ol>     
+        </div>
+        <div class="card">
+            <div class="parrafo-con-imagen card-body">
+                <div class="parrafo d-block px-2">
+                    <p class="text-center fs-2">!</p>
+                    <p>Es importante destacar que el alcance del proyecto de software puede evolucionar a lo largo del tiempo debido a cambios en los requisitos prioridades o circunstancias que ocurran durante el desarrollo.</p> 
+                </div>
+                <div class="p-2 imagen card overflow-hidden">
+                    <img class="img-fluid" src="/assets/images/alcance-de-proyecto-2-edit.jpg" alt="">           
+                </div>
+            </div>
+        </div>
+        <div class="indice-del-proyecto"></div>
+    </main>
+    <footer id="footer">
+        <div onclick="cambiarColorHeaderFooter('rgb(79, 41, 87)')">Cambiar color</div>
+        <p> Salinas Priscila - Comisión 3</p>
+        <div style="display: flex; flex-wrap: wrap;">
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(34, 83, 59)')" style="background-color: rgb(34, 83, 59)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(64, 138, 70)')" style="background-color: rgb(64, 138, 70)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(54, 151, 58)')" style="background-color: rgb(54, 151, 58)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(69, 154, 204)')" style="background-color: rgb(69, 154, 204)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(187, 185, 67)')" style="background-color: rgb(209, 207, 78)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(219, 128, 54)')" style="background-color: rgb(219, 128, 54)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(221, 87, 203)')" style="background-color: rgb(221, 87, 203)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(67, 34, 83)')" style="background-color: rgb(67, 34, 83)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(121, 55, 105)')" style="background-color: rgb(121, 55, 105)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(65, 55, 121)')" style="background-color: rgb(65, 55, 121)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(40, 33, 75)')" style="background-color: rgb(40, 33, 75)"></div>
+            <label for=""> Manual:
+            <input type="color" onmousedown="" onchange="cambiarColorHeaderFooter(event.target.value);" >
+            </label>
+            <p class="m-2" id="color"></p>
+        </div>
+    </footer>
+</body>
+</html>
