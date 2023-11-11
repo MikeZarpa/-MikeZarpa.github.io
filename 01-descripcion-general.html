@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/bootstrap-5.2.3-dist/css/bootstrap.css">
+    <script src="/assets/bootstrap-5.2.3-dist/js/bootstrap.js"></script>
+    <!-- Ward -->
+    <link rel="stylesheet" href="style.css">
+    <title>Descripción General del Proyecto</title>
+    <style>
+        .cuadrito{
+            height: 25px;
+            width: 25px;
+        }
+    </style>
+    <script>
+        function cambiarColorHeaderFooter(color) {
+            document.getElementById('header').style.backgroundColor = color;
+            document.getElementById('footer').style.backgroundColor = color;
+            document.getElementById('color').innerHTML = color;
+        }
+    </script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="preinscripcion.html">Preinscripciones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="01-descripcion-general.html">Descripción general del Proyecto</a></li>
+                <li><a href="02-alcance-del-proyecto.html">Alcance</a></li>
+            </ul>
+        </nav>
+        <div id="banner" class="banner overflow-hidden" style="background-image: url('/assets/images/banner-pujol.jpg');">
+        </div>
+    </header>
+    <main class="container">
+        <div id="titulo">
+            <h1>Descripción General del Proyecto</h1>
+            <p class="parrafo">Como mencionamos anteriormente, la empresa Pujol S.R.L, es una empresa con un gran renombre en la provincia de compra-venta mercaderías al por mayor, rubro en el que presta sus servicios a la comunidad hace 50 años, con un total de tres empleados: dos de planta, un empleado administrativo que es el técnico contable y dos socios: el gerente y dueño, Carlos Pujol y segundo socio que vendría a ser el hijo. </p>
+            <p class="parrafo"> Cuenta con áreas funcionales a ser: Ventas, Finanzas y contabilidad, entre otros, los cuales, sus principales procesos de negocios a los que propondremos diversas soluciones alternativas, son la venta de mercadería, ensamble de productos, identificación de clientes, pago a acreedores, administración de cuentas en efectivo, verificación de calidad, compra de productos a proveedores y recepción de los mismos, almacenaje de los bienes, control de stock y otras actividades de contabilidad. 
+            </p>
+            <p>Debido a la cantidad de problemas encontrados en la empresa, y el poco tiempo que contamos respecto a la implementación de este proyecto en particular, las soluciones que creemos pertinente para satisfacer esta demanda se realizará en cuatro etapas:</p>
+        </div>
+        <div class="parrafo px-3">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><p> 1era Etapa: Informatizar las operaciones más importantes e inmediatas, lo que mejorarían la eficiencia y productividad de las áreas de gestión más arriba mencionadas </p></li>
+                <li class="list-group-item"><p> 2da Etapa: Mejorar los puntos de venta de la organización, como ser ventas online y  la integración con sistemas de pago electrónicos, como terminales de tarjetas de crédito o aplicaciones de pagos móviles, para facilitar transacciones sin efectivo (ya fuera del alcance de este tp). </p></li>
+                <li class="list-group-item"><p> 3da Etapa: Mejorar la eficiencia operativa al cambiar el layout de mercaderías en el depósito identificando las áreas problemáticas, cuellos de botella y oportunidades de mejora, optimizando así los flujos de trabajo logrando la reducción de movimientos necesarios. Dividir el depósito en zonas específicas según la naturaleza de los productos o las etapas del proceso; asegurarse de que el nuevo layout promueva la ergonomía y facilite la comodidad y seguridad de los trabajadores; etiquetar y señalizar claramente las diferentes áreas, estantes y productos para facilitar la navegación y reducir el tiempo de búsqueda. (ya fuera del alcance de este tp).  </p></li>
+                <li class="list-group-item"><p> 4ta Etapa: Realizar las reparaciones de la parte edilicia como instalaciones eléctricas y sanitarias; logrando de esta manera una mejor distribución del espacio, maximizando la capacidad de almacenamiento y facilitando la organización de los productos, lo cual tendrá un impacto significativo en la eficiencia, seguridad y satisfacción general tanto del personal como de los clientes; priorizando a su vez la señalización y matafuegos en todo el depósito para cumplir con las normas legales vigentes en el país (ya fuera del alcance de este tp).   </p></li>
+            </ol>     
+        </div>
+        <div class="card">
+            <div class="parrafo-con-imagen card-body">
+                <div class="p-2 imagen card overflow-hidden">
+                    <img class="img-fluid" src="/assets/images/descripcion-general-edit.jpg" alt="">           
+                </div>
+                <div class="parrafo px-2">
+                    <p class="text-center fs-2">!</p>
+                    <p class="text-center">En este proyecto, solo cubriremos la primera etapa, el desarrollo e implementación de un sistema para informatizar las principales actidades de la empresa.</p> 
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <p> Salinas Priscila - Comisión 3</p>
+        <div style="display: flex; flex-wrap: wrap;">
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(34, 83, 59)')" style="background-color: rgb(34, 83, 59)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(64, 138, 70)')" style="background-color: rgb(64, 138, 70)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(54, 151, 58)')" style="background-color: rgb(54, 151, 58)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(69, 154, 204)')" style="background-color: rgb(69, 154, 204)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(187, 185, 67)')" style="background-color: rgb(209, 207, 78)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(219, 128, 54)')" style="background-color: rgb(219, 128, 54)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(221, 87, 203)')" style="background-color: rgb(221, 87, 203)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(67, 34, 83)')" style="background-color: rgb(67, 34, 83)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(121, 55, 105)')" style="background-color: rgb(121, 55, 105)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(65, 55, 121)')" style="background-color: rgb(65, 55, 121)"></div>
+            <div class="cuadrito m-1" onclick="cambiarColorHeaderFooter('rgb(40, 33, 75)')" style="background-color: rgb(40, 33, 75)"></div>
+            <label for=""> Manual:
+            <input type="color" onmousedown="" onchange="cambiarColorHeaderFooter(event.target.value);" >
+            </label>
+            <p class="m-2" id="color"></p>
+        </div>
+    </footer>
+</body>
+</html>

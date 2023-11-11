@@ -3,7 +3,7 @@ header,footer{
     background-color: rgb(112, 60, 114);
 }
 header {
-    height: 200px;
+    height: 300px;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -53,7 +53,6 @@ nav a {
 .parrafo-con-imagen .imagen{
     flex: 1;
     display: flex;
-    
     justify-content: center;
     
 }
@@ -62,7 +61,7 @@ nav a {
 @media screen and (min-width: 768px) {
     /* Increase header and nav font sizes and spacing */
     header {
-        height: 300px;
+        height: 500px;
         padding: 20px 0;
         font-size: 24px;
     }
@@ -76,7 +75,7 @@ nav a {
 @media screen and (min-width: 1024px) {
     /* Further increase header and nav font sizes and spacing */
     header {
-        height: 400px;
+        height: 500px;
         padding: 30px 0;
         font-size: 32px;
     }
